@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Squada+One&display=swap");
+
+
+:root {
+  --clr-dark: #C96868;
+}
+
+html{
+  font-size: 14px;
+}
+
+
+
+h1{
+    position:absolute;
+    top: 80px; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    margin: 10; 
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+    color: #190933;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(
+      to top right, 
+      #EE96BE,
+      #FFDBC3 30%, 
+      #FFF5E0 60%, 
+      #190933 100% 
+    );
+  }
+  
+  .flex-container {
+    display: flex;
+    width: 80%;
+    border: 1px solid #ccc;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  .flex-child {
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFF4EA;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border: var(--clr-dark) dashed 5px;
+  }
+
+  .material-icons {
+    font-size: 40px;
+    color: var(--clr-dark);
+    display: block;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #190933;
+
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
