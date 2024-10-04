@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --clr-planet: #334eac;
+    --clr-universe: #7096d1;
+    --clr-galaxy:#081f5c;
+    ---clr-skyblue:#d0e3ff;
+    ---clr-milkyway:#fff9f0;
+   
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('VisionBoard/flexbox_bg.jpg');
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.header h1{
+    position:absolute;
+    top: 10vh; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    margin: 10; 
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--clr-galaxy);
+    font-size: 3.0rem;
+}
+.container {
+    width: 70vw; 
+    height: 70vh; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px; 
+    gap: 10px; 
+}
+
+.content1, .subContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 10px; 
+}
+
+.content1>div, .content2>div, .content3>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw; 
+    font-family: "DM Serif Display", serif;
+    min-height: 150px; 
+    border-radius: 4px;
+}
+
+.box1 {
+    flex: 2;
+    background-image: url('VisionBoard/graduate.jpg');
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.box2 {
+    flex: 3;
+    background-color: var(---clr-milkyway)
+}
+
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 3;
+    gap: 10px; 
+}
+
+.content3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.box3, .box4, .box5 {
+    flex: 1;
+}
+
+.box2 {
+    display: flex;
+    align-items: flex-start;
+
+    background-color: var(---clr-milkyway);
+    border: var(--clr-galaxy) solid 3px;
+}
+
+.box2 h3 {
+    font-size: 2.2rem;
+    margin:0;
+    color: var(--clr-galaxy);
+    text-align: center;
+    margin-right: 50px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1; 
+
+    background-image: url("VisionBoard/heartblue.png"); 
+    background-size: 130%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 20px; 
+    position: relative; 
+    overflow: visible; 
+    
+}
+
+.box2 li {
+    display: flex; 
+    align-items: center; 
+    font-size: 1rem; 
+    color: var(--clr-galaxy);
+    line-height: 1.5; 
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 50px;
+
+}
+.box2 .line {
+    display: block; 
+    padding:5px;
+}
+
+.box2 h3 span {
+    display: block; 
+    font-weight: bold; 
+}
+
+.box2 ul{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.material-symbols-outlined {
+    font-size: 0.8rem; 
+    color: var(--clr-planet); 
+    margin-right: 8px; 
+}
+
+.box3{
+    background-color: var(---clr-milkyway);
+    border: var(--clr-galaxy) solid 3px;
+}
+
+.box3 p{
+    display: flex; 
+    align-items:center;
+}
+.box3 .text-container {
+    display: flex; 
+    align-items: flex-start; 
+}
+.box3 .text{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 2.0rem;
+    color: var(--clr-galaxy);
+}
+.scholar-icon {
+    width: 100px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+
+.box3 .line {
+    display: block; 
+}
+
+.box4 {
+    background-image: url('VisionBoard/coding.jpg');
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.box5{
+    background-image: url('VisionBoard/forGod.png');
+    background-size: 100% 100%;
+
+    background-color: var(---clr-milkyway);
+    border: var(--clr-galaxy) solid 3px;
+}
+
+
+
+.box6 {
+    flex: 3;
+    background-image: url('VisionBoard/sea_bg.jpg');
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.box7 {
+    flex: 3;
+    background-image: url('VisionBoard/travel_with_fam.jpg');
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+.box6, .box7 {
+    flex: 100%;
+}
+
+.footer p{
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--clr-galaxy);
+}
+
+.footer {
+    position:absolute;
+    bottom: 0; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: var(--clr-galaxy);
+    padding: 10px;
+    margin-top: auto; 
+}
+.footer p{
+    font-family: "DM Serif Display", system-ui;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content2 {
+        flex: 100%;
+    }
+
+    .box7 {
+        min-height: 150px !important; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box1, .box3 {
+        flex: 100%;
+    }
+
+    .box2, .box6 {
+        min-height: 150px !important; 
+    }
+}
