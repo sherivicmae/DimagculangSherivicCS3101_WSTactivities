@@ -35,6 +35,10 @@ The schedule includes:
 - 📖 **Class Codes and Descriptions**: (e.g., IT 321 - Human-Computer Interaction).
 - 🎨 **Styled Table**: Includes borders and header colors for better readability.
 
+### 📸 Output
+![Class Schedule](Laboratory%20Activities/Laboratory%20Activity%201%20-%2006-08-2024/html-tables-output.png)
+*Class Schedule*
+
 ## 🎨 Lab 2: Personalized Vision Board
 
 ### Overview
@@ -65,6 +69,10 @@ The vision board includes:
 - Inspirational **images** displayed using the `<img>` tag.
 - **Headings** and **descriptive text** to provide context to each image.
 - A **flexible layout** that adapts to different screen sizes.
+
+### 📸 Output
+![Vision Board](Laboratory%20Activities/Laboratory%20Activity%202%20-%20(04-10-24)/visionboard-output.png)
+*My Vision Board*
 
 ---
 
@@ -110,7 +118,7 @@ This application provides:
 *Word and Sentence Counter Application Interface*
 
 ### 🎥 Demo Video
-[Word Counter Interface Video](Laboratory%20Activities/Laboratory%20Activity%203%20-%2019-11-24/word-sentence-ctr-output(video%20file).mp4)
+![Word Counter Interface](Laboratory%20Activities/Laboratory%20Activity%203%20-%2019-11-24/word-sentence-ctr-output(gif%20file).gif)
 *Watch the demo video to see the counter in action!*
 
 ---
@@ -118,6 +126,7 @@ This application provides:
 
 ### Overview
 In this lab, I created an interactive webpage featuring smooth animations, progress bars, continuous typing effects, and a dynamic timeline. The webpage is designed to be fully responsive, adapting to different screen sizes using **HTML**, **CSS**, and **JavaScript**.
+
 ---
 ### 📌 Relevant HTML Tags
 - `<nav>`: Used for the navigation bar with links to different sections of the page.
@@ -147,6 +156,15 @@ In this lab, I created an interactive webpage featuring smooth animations, progr
 - **Hero Section**: The text size adjusts based on the screen width to ensure the hero section remains readable on all devices.
 - **Progress Bars**: Adjust their height and animation speed for smaller screens to ensure they fit within the screen properly.
 - **Timeline**: The content fades in as you scroll, with markers scaling and rotating when hovered.
+
+
+### 📸 Output
+![Word Counter Interface](/Laboratory%20Activities/Laboratory%20Activity%204%20-%2029-11-24/personal-page-output%20(image%20file).png)
+
+### 🎥 Demo Video
+
+![Word Counter Interface](/Laboratory%20Activities/Laboratory%20Activity%204%20-%2029-11-24/personal-page-output%20(video%20file).gif)
+
 ---
 ### Additional Features for Interactivity:
 - **Hover Effects**: Skills and social media buttons change visually when hovered over, thanks to CSS `transform` and `background-color` properties.
