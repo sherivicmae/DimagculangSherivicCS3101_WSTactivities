@@ -1,10 +1,10 @@
-# 🌟 Web Systems Laboratory Activities
+# 🌐 Web Systems Laboratory Activities
 
 Welcome to my Web Systems Laboratory repository! Here, you'll find my journey through creating dynamic and responsive web projects using HTML, CSS, and JavaScript. Each lab activity builds upon foundational knowledge of web development to create practical applications.
 
 ---
 
-## 📋 Table of Contents
+## 📒 Table of Contents
 - [Lab 1: Class Schedule](#lab-1-class-schedule)
 - [Lab 2: Personalized Vision Board](#lab-2-personalized-vision-board)
 - [Lab 3: Word and Sentence Counter](#lab-3-word-and-sentence-counter)
@@ -76,7 +76,7 @@ The vision board includes:
 
 ---
 
-## 🗓️ Lab 3: Word and Sentence Counter
+## ✏️ Lab 3: Word and Sentence Counter
 
 ### Overview
 In this lab, I created a simple web application to count the number of words and sentences in a given input text. The application is designed using **HTML** for the structure and **CSS** for styling. **JavaScript** is used to handle the functionality of counting words and sentences in real-time as the user types in the input field.
@@ -123,7 +123,7 @@ This application provides:
 *Watch the demo video to see the counter in action!*
 
 ---
-## 🎨 Lab 4: Responsive Web Design
+## 📱 Lab 4: Responsive Web Design
 
 ### Overview
 In this lab, I created an interactive webpage featuring smooth animations, progress bars, continuous typing effects, and a dynamic timeline. The webpage is designed to be fully responsive, adapting to different screen sizes using **HTML**, **CSS**, and **JavaScript**.
