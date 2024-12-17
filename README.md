@@ -66,3 +66,43 @@ The vision board includes:
 - **Headings** and **descriptive text** to provide context to each image.
 - A **flexible layout** that adapts to different screen sizes.
 
+---
+
+## 🗓️ Lab 3: Word and Sentence Counter
+
+### Overview
+In this lab, I created a simple web application to count the number of words and sentences in a given input text. The application is designed using **HTML** for the structure and **CSS** for styling. **JavaScript** is used to handle the functionality of counting words and sentences in real-time as the user types in the input field.
+
+---
+
+### 📌 Relevant HTML Tags
+- **`<input>`**: Captures the user input for text to be analyzed.
+- **`<p>`**: Displays the word and sentence counts.
+
+---
+
+### 📌 Relevant JavaScript Functions
+
+1. **`trim()`**  
+   Removes leading and trailing whitespace from the input text to ensure that extra spaces do not interfere with the word and sentence counts.
+
+2. **`split()`**  
+   Splits the input text into words and sentences:
+   - **For words**: The text is split into an array of words using spaces as the delimiter.
+   - **For sentences**: The text is split based on sentence-ending punctuation marks like `.`, `!`, and `?`.
+
+3. **`filter()`**  
+   Filters out any empty strings that may result from multiple spaces or incorrect punctuation marks, ensuring accurate word and sentence counts.
+
+4. **`addEventListener()`**  
+   Adds an event listener to the text input field to detect any changes in the input and update the word and sentence counts dynamically.
+
+---
+
+### 👁️ Preview
+This application provides:
+- A **real-time word count** that updates as the user types.
+- A **real-time sentence count** that updates as the user types.
+- A responsive and user-friendly layout that works across different screen sizes.
+
+---
