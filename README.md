@@ -36,7 +36,7 @@ In this lab, I created a class schedule using **HTML only**. It displays weekly 
 ### 👁️ Preview
 The schedule includes:
 - 🕒 **Timings**: (e.g., 8:00 AM - 10:00 AM).
-- 📖 **Class Codes and Descriptions**: (e.g., IT 321 - Human-Computer Interaction).
+- 📖 **Class Codes and Descriptions**: (e.g., IT 314 - Web Systems and Technologies).
 - 🎨 **Styled Table**: Includes borders and header colors for better readability.
 
 ### 📸 Output
@@ -194,12 +194,6 @@ In this lab, I created an interactive webpage featuring smooth animations, progr
    ```bash
    git clone https://github.com/your-username/web-systems-labs.git
 ---
-## 🧡 Thank You!
-Thank you for taking the time to explore my lab activities! I hope you find them informative and inspiring. Your feedback and suggestions are always welcome. 😊
-
-> "Coding is the language of the future, and I'm just getting started!"
-
----
 
 ## 👩‍💻 Author
 - **Sherivic Dimagculang, A 3rd year Computer Science student**  
@@ -210,6 +204,12 @@ Thank you for taking the time to explore my lab activities! I hope you find them
 
 ## 🎓 Acknowledgment
 I would like to express my heartfelt gratitude to my adviser, **Ma'am Fatima Marie Agdon**, for her invaluable guidance and support throughout this journey. Your mentorship has been instrumental in developing my skills and confidence in web development.🌸🌟💕
+---
+
+## 🧡 Thank You!
+Thank you for taking the time to explore my lab activities! I hope you find them informative and inspiring. Your feedback and suggestions are always welcome. 😊
+
+> "Coding is the language of the future, and I'm just getting started!"
 
 ---
 This README provides an overview of each lab activity and showcases the skills learned through hands-on projects. Enjoy exploring the labs!
