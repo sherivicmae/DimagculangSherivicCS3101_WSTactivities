@@ -204,6 +204,7 @@ In this lab, I created an interactive webpage featuring smooth animations, progr
 
 ## 🎓 Acknowledgment
 I would like to express my heartfelt gratitude to my adviser, **Ma'am Fatima Marie Agdon**, for her invaluable guidance and support throughout this journey. Your mentorship has been instrumental in developing my skills and confidence in web development.🌸🌟💕
+
 ---
 
 ## 🧡 Thank You!
