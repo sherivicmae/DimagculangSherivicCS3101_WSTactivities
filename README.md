@@ -34,3 +34,35 @@ The schedule includes:
 - 🕒 **Timings**: (e.g., 8:00 AM - 10:00 AM).
 - 📖 **Class Codes and Descriptions**: (e.g., IT 321 - Human-Computer Interaction).
 - 🎨 **Styled Table**: Includes borders and header colors for better readability.
+
+## 🎨 Lab 2: Personalized Vision Board
+
+### Overview
+In this lab, I created a personalized vision board to display and organize various images, goals, and inspirations. The board is designed using **HTML** for structure and **CSS** for styling, with Flexbox used for creating a responsive and flexible layout.
+
+---
+
+### 📌 Relevant HTML Tags
+- `<div>`: To structure and group different sections of the vision board.
+- `<img>`: To display images representing goals and inspirations.
+- `<h1>`, `<h2>`, `<p>`: For headings and descriptive text.
+- `<footer>`: To include additional information at the bottom of the vision board.
+
+---
+
+### 📌 Relevant CSS Properties (Flexbox)
+- `display: flex;`: To create a flexible layout structure.
+- `flex-direction`: To specify the direction of the flex items (row or column).
+- `justify-content`: To align items horizontally (e.g., center, space-between, flex-start).
+- `align-items`: To align items vertically within the container.
+- `flex-wrap`: To allow items to wrap onto multiple lines.
+- `gap`: To add spacing between rows or columns.
+
+---
+
+### 👁️ Preview
+The vision board includes:
+- Inspirational **images** displayed using the `<img>` tag.
+- **Headings** and **descriptive text** to provide context to each image.
+- A **flexible layout** that adapts to different screen sizes.
+
