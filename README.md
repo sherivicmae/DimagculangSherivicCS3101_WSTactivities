@@ -9,10 +9,10 @@ Welcome to my Web Systems and Technologies Laboratory repository! Here, you'll f
 - [Lab 2: Personalized Vision Board](#lab-2-personalized-vision-board)
 - [Lab 3: Word and Sentence Counter](#lab-3-word-and-sentence-counter)
 - [Lab 4: Responsive Web Design](#lab-4-responsive-web-design)
-- [Tools & Technologies Used](#tools--technologies-used)
-- [How to Use](#how-to-use)
-- [Author](#author)
-- [Acknowledgment](#acknowledgment)
+- [Tools & Technologies Used](#-tools--technologies-used)
+- [How to Use](#-how-to-use)
+- [Author](#-author)
+- [Acknowledgment](#-acknowledgment)
 
 ---
 
