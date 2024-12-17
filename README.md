@@ -1,6 +1,6 @@
-# 🌐 Web Systems Laboratory Activities
+# 🌐 Web Systems and Technologies Laboratory Activities
 
-Welcome to my Web Systems Laboratory repository! Here, you'll find my journey through creating dynamic and responsive web projects using HTML, CSS, and JavaScript. Each lab activity builds upon foundational knowledge of web development to create practical applications.
+Welcome to my Web Systems and Technologies Laboratory repository! Here, you'll find my journey through creating dynamic and responsive web projects using HTML, CSS, and JavaScript. Each lab activity builds upon foundational knowledge of web development to create practical applications.
 
 ---
 
@@ -174,5 +174,37 @@ In this lab, I created an interactive webpage featuring smooth animations, progr
 ### Additional Features for Interactivity:
 - **Hover Effects**: Skills and social media buttons change visually when hovered over, thanks to CSS `transform` and `background-color` properties.
 - **Continuous Typing Effect**: The text in the hero section types out continuously in a loop, utilizing JavaScript to manipulate the inner text of an element.
+---
+
+## 🛠️ Tools & Technologies Used
+- **HTML5**: To structure web content effectively.
+- **CSS3**: For styling, layouts, and responsiveness.
+- **JavaScript**: To add interactivity and dynamic functionality.
+- **Google Fonts**: To enhance typography and visual appeal.
+---
+
+## 🚀 How to Use
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/your-username/web-systems-labs.git
+---
+## 🧡 Thank You!
+Thank you for taking the time to explore my lab activities! I hope you find them informative and inspiring. Your feedback and suggestions are always welcome. 😊
+
+> "Coding is the language of the future, and I'm just getting started!"
+
+---
+
+## 👩‍💻 Author
+- **Sherivic Dimagculang**  
+- **First Semester, AY 2024-2025**  
+- Aspiring web developer exploring the endless possibilities of technology.
+
+---
+
+## 🎓 Acknowledgment
+I would like to express my heartfelt gratitude to my adviser, **Ma'am Fatima Marie Agdon**, for her invaluable guidance and support throughout this journey. Your mentorship has been instrumental in developing my skills and confidence in web development.
+
 ---
 This README provides an overview of each lab activity and showcases the skills learned through hands-on projects. Enjoy exploring the labs!
