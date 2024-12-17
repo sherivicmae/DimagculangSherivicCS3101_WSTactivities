@@ -201,14 +201,14 @@ Thank you for taking the time to explore my lab activities! I hope you find them
 ---
 
 ## 👩‍💻 Author
-- **Sherivic Dimagculang**  
+- **Sherivic Dimagculang, A 3rd year Computer Science student**  
 - **First Semester, AY 2024-2025**  
-- Aspiring web developer exploring the endless possibilities of technology.
+- Aspiring web developer exploring the endless possibilities of technology.💻✨💖
 
 ---
 
 ## 🎓 Acknowledgment
-I would like to express my heartfelt gratitude to my adviser, **Ma'am Fatima Marie Agdon**, for her invaluable guidance and support throughout this journey. Your mentorship has been instrumental in developing my skills and confidence in web development.
+I would like to express my heartfelt gratitude to my adviser, **Ma'am Fatima Marie Agdon**, for her invaluable guidance and support throughout this journey. Your mentorship has been instrumental in developing my skills and confidence in web development.🌸🌟💕
 
 ---
 This README provides an overview of each lab activity and showcases the skills learned through hands-on projects. Enjoy exploring the labs!
