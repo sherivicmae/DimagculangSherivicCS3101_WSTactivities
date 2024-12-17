@@ -5,11 +5,10 @@ Welcome to my Web Systems and Technologies Laboratory repository! Here, you'll f
 ---
 
 ## 📒 Table of Contents
-- [Lab 1: Class Schedule](#lab-1-class-schedule)
-- [Lab 2: Personalized Vision Board](#lab-2-personalized-vision-board)
-- [Lab 3: Word and Sentence Counter](#lab-3-word-and-sentence-counter)
-- [Lab 4: Responsive Web Design](#lab-4-responsive-web-design)
-
+- [Lab 1: Class Schedule](#🗓️-lab-1-class-schedule)
+- [Lab 2: Personalized Vision Board](#🎨-lab-2-personalized-vision-board)
+- [Lab 3: Word and Sentence Counter](#✏️-lab-3-word-and-sentence-counter)
+- [Lab 4: Responsive Web Design](#📱-lab-4-responsive-web-design)
 ---
 
 ## 🗓️ Lab 1: Class Schedule
