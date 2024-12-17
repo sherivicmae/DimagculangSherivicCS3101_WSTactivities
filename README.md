@@ -105,6 +105,13 @@ This application provides:
 - A **real-time sentence count** that updates as the user types.
 - A responsive and user-friendly layout that works across different screen sizes.
 
+### 📸 Output
+![Word Counter Interface](WST_Counter/word-sentence-ctr-output(image file).png)
+*Word and Sentence Counter Application Interface*
+
+### 🎥 Demo Video
+https://github.com/yourusername/WST_LabActivities/assets/videos/word-sentence-ctr-output.mp4
+
 ---
 ## 🎨 Lab 4: Responsive Web Design
 ### Overview
