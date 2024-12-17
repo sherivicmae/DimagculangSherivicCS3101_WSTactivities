@@ -106,15 +106,17 @@ This application provides:
 - A responsive and user-friendly layout that works across different screen sizes.
 
 ### 📸 Output
-![Word Counter Interface](WST_Counter/word-sentence-ctr-output(image file).png)
+![Word Counter Interface](DimagculangSherivicCS3101_WSActivities/Laboratory%20Activities/Laboratory%20Activity%203%20-%2019-11-24/word-sentence-ctr-output(image%20file).png)
 *Word and Sentence Counter Application Interface*
 
 ### 🎥 Demo Video
-https://github.com/yourusername/WST_LabActivities/assets/videos/word-sentence-ctr-output.mp4
+![Demo Video](Laboratory%20Activity%203%20-%2019-11-24/word-sentence-ctr-output(video%20file).mp4)
+*Watch the demo video to see the counter in action!*
 
 ---
 ## 🎨 Lab 4: Responsive Web Design
 ### Overview
+
 In this lab, I created an interactive webpage featuring smooth animations, progress bars, continuous typing effects, and a dynamic timeline. The webpage is designed to be fully responsive, adapting to different screen sizes using **HTML**, **CSS**, and **JavaScript**.
 ---
 ### 📌 Relevant HTML Tags
