@@ -106,3 +106,55 @@ This application provides:
 - A responsive and user-friendly layout that works across different screen sizes.
 
 ---
+
+## 🎨 Lab 4: Responsive Web Design
+
+### Overview
+In this lab, I created an interactive webpage featuring smooth animations, progress bars, continuous typing effects, and a dynamic timeline. The webpage is designed to be fully responsive, adapting to different screen sizes using **HTML**, **CSS**, and **JavaScript**.
+
+---
+
+### 📌 Relevant HTML Tags
+- `<nav>`: Used for the navigation bar with links to different sections of the page.
+- `<ul>`, `<li>`: Defines the unordered list of navigation links.
+- `<section>`: Each section represents different content areas like skills, progress, and timeline.
+- `<h1>`, `<p>`: Headings and paragraphs for content display.
+- `<div>`: A container element used for various content sections (e.g., skill items, progress bars).
+
+---
+
+### 📌 Relevant CSS Properties and Techniques for Responsiveness:
+- `@media`: Media queries used for adapting the layout based on screen size. For instance:
+  - `@media (max-width: 768px)`: Adjusts layout when the screen width is 768px or less.
+  - `@media (max-width: 480px)`: Further tweaks the layout for screens that are 480px or smaller.
+  
+- **Flexbox**: `display: flex;` and `justify-content: center;` used in the navigation bar and layout for aligning elements.
+- **Percent-based Width**: Ensures elements like sections are responsive and adjust according to the screen size, e.g., `width: 100%;` or `padding: 10%`.
+- **`transform`**: Used for animations like scaling elements on hover (e.g., `.skill-item:hover`).
+
+---
+
+### 📌 JavaScript Functions for Interactivity:
+- `addEventListener()`: Adds interactivity by listening for events such as clicks and mouse enters for hover effects.
+- `setTimeout()`: Used to create delays in animations or actions, such as the continuous typing effect and progress bar animation.
+- `scrollIntoView()`: Smooth scrolling to different sections when navigation links are clicked.
+- `IntersectionObserver`: Detects when elements come into view, triggering animations like timeline content fading in.
+
+---
+
+### 👁️ Preview of Responsiveness:
+- **Navigation**: The navigation bar becomes vertical and centered on smaller screens, ensuring that links are still accessible without overlapping.
+- **Skill Items**: The skill items are displayed in a row on larger screens and stack vertically on smaller screens, with appropriate spacing between them.
+- **Hero Section**: The text size adjusts based on the screen width to ensure the hero section remains readable on all devices.
+- **Progress Bars**: Adjust their height and animation speed for smaller screens to ensure they fit within the screen properly.
+- **Timeline**: The content fades in as you scroll, with markers scaling and rotating when hovered.
+
+---
+
+### Additional Features for Interactivity:
+- **Hover Effects**: Skills and social media buttons change visually when hovered over, thanks to CSS `transform` and `background-color` properties.
+- **Continuous Typing Effect**: The text in the hero section types out continuously in a loop, utilizing JavaScript to manipulate the inner text of an element.
+
+---
+
+This README provides an overview of each lab activity and showcases the skills learned through hands-on projects. Enjoy exploring the labs!
