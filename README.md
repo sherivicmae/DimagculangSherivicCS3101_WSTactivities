@@ -2,159 +2,228 @@
 
 Welcome to my Web Systems Laboratory repository! Here, you'll find my journey through creating dynamic and responsive web projects using HTML, CSS, and JavaScript. Each lab activity builds upon foundational knowledge of web development to create practical applications.
 
----
-
 ## 📋 Table of Contents
 - [Lab 1: Class Schedule](#lab-1-class-schedule)
-- [Lab 2: Personalized Vision Board](#lab-2-personalized-vision-board)
-- [Lab 3: Word and Sentence Counter](#lab-3-word-and-sentence-counter)
-- [Lab 4: Responsive Web Design](#lab-4-responsive-web-design)
-
----
+- [Lab 2: Personal Page](#lab-2-personal-page)
+- [Lab 3: Personal Website](#lab-3-personal-website)
+- [Lab 4: Word Counter Application](#lab-4-word-counter)
 
 ## 🗓️ Lab 1: Class Schedule
-
 ### Overview
-In this lab, I created a class schedule using **HTML only**. It displays weekly classes in a structured table format, highlighting class codes, descriptions, and timings. The project demonstrates the use of semantic tags, styling, and table attributes.
-
----
-
-### 📌 Important Tags Used
-- `<table>`: Creates the class schedule layout.
-- `<tr>`: Defines each row of the table.
-- `<td>` and `<th>`: Represents table cells and headers.
-- `<style>`: Includes CSS styling directly in the HTML document.
-- `<footer>`: Adds additional information about the class schedule at the bottom.
-- `@import`: Imports fonts from Google Fonts for a visually appealing design.
-
----
+Located in the `Laboratory 1` folder, this lab focuses on creating a class schedule using HTML. It demonstrates the fundamental concepts of HTML table structures and basic styling.
 
 ### 👁️ Preview
 The schedule includes:
-- 🕒 **Timings**: (e.g., 8:00 AM - 10:00 AM).
-- 📖 **Class Codes and Descriptions**: (e.g., IT 321 - Human-Computer Interaction).
-- 🎨 **Styled Table**: Includes borders and header colors for better readability.
 
-## 🎨 Lab 2: Personalized Vision Board
+🕒 Timings: (e.g., 8:00 AM - 10:00 AM).
+📖 Class Codes and Descriptions: (e.g., IT 321 - Human-Computer Interaction).
+🎨 Styled Table: Includes borders and header colors for better readability.
 
+### 📸 Output
+![Class Schedule Output](outputs/lab1-class-schedule.png)
+*Note: To better showcase your work, consider taking a screenshot of your class schedule output and saving it as 'lab1-class-schedule.png' in an outputs folder.*
+
+### 📌 Important Tags & Properties Used
+#### HTML
+- `<table>`: Creates structured table layouts
+- `<tr>`, `<td>`, `<th>`: Defines table rows and cells
+- `<style>`: Implements CSS styling
+- `<footer>`: Adds footer information
+- `@import`: Imports Google Fonts
+
+#### CSS
+- `background-color`: Sets background colors
+- `border`: Defines table borders
+- `padding`: Adds internal spacing
+- `text-align`: Aligns text content
+- `font-family`: Sets custom fonts
+- `margin`: Controls external spacing
+
+### 📌 Key Features
+- Structured HTML tables for schedule presentation
+- Semantic HTML tags for better accessibility
+- Basic CSS styling for visual enhancement
+
+## 🎨 Lab 2: Personal Page
 ### Overview
-In this lab, I created a personalized vision board to display and organize various images, goals, and inspirations. The board is designed using **HTML** for structure and **CSS** for styling, with Flexbox used for creating a responsive and flexible layout.
-
----
-
-### 📌 Relevant HTML Tags
-- `<div>`: To structure and group different sections of the vision board.
-- `<img>`: To display images representing goals and inspirations.
-- `<h1>`, `<h2>`, `<p>`: For headings and descriptive text.
-- `<footer>`: To include additional information at the bottom of the vision board.
-
----
-
-### 📌 Relevant CSS Properties (Flexbox)
-- `display: flex;`: To create a flexible layout structure.
-- `flex-direction`: To specify the direction of the flex items (row or column).
-- `justify-content`: To align items horizontally (e.g., center, space-between, flex-start).
-- `align-items`: To align items vertically within the container.
-- `flex-wrap`: To allow items to wrap onto multiple lines.
-- `gap`: To add spacing between rows or columns.
-
----
+Found in the `Laboratory 2` folder, this project expands on web development skills by creating a personal page with more advanced HTML and CSS features.
 
 ### 👁️ Preview
 The vision board includes:
-- Inspirational **images** displayed using the `<img>` tag.
-- **Headings** and **descriptive text** to provide context to each image.
-- A **flexible layout** that adapts to different screen sizes.
 
----
+Inspirational images displayed using the <img> tag.
+Headings and descriptive text to provide context to each image.
+A flexible layout that adapts to different screen sizes.
 
-## 🗓️ Lab 3: Word and Sentence Counter
+### 📸 Output
+![Personal Page Output](WST_Counter/personal-page-output(image file).png)
 
+### 📌 Important Tags & Properties Used
+#### HTML
+- `<nav>`: Creates navigation menu
+- `<section>`: Defines different content sections
+- `<div>`: Container for layout and styling
+- `<img>`: Displays images and photos
+- `<a>`: Creates hyperlinks
+- `<link>`: Links external CSS files
+
+#### CSS
+- `display: flex`: Creates flexible layouts
+- `@media`: Implements responsive design
+- `box-shadow`: Adds shadow effects
+- `transition`: Creates smooth animations
+- `hover`: Adds interactive effects
+- `border-radius`: Rounds corners
+- `grid-template`: Creates grid layouts
+
+#### JavaScript
+- `addEventListener()`: Handles click events
+- `querySelector()`: Selects DOM elements
+- `classList.toggle()`: Toggles menu states
+- `window.scroll`: Handles scroll events
+
+### 📌 Key Features
+- Responsive layout design
+- Enhanced CSS styling
+- Personal information presentation
+- Interactive elements
+
+## 🌐 Lab 3: Personal Website
 ### Overview
-In this lab, I created a simple web application to count the number of words and sentences in a given input text. The application is designed using **HTML** for the structure and **CSS** for styling. **JavaScript** is used to handle the functionality of counting words and sentences in real-time as the user types in the input field.
-
----
-
-### 📌 Relevant HTML Tags
-- **`<input>`**: Captures the user input for text to be analyzed.
-- **`<p>`**: Displays the word and sentence counts.
-
----
-
-### 📌 Relevant JavaScript Functions
-
-1. **`trim()`**  
-   Removes leading and trailing whitespace from the input text to ensure that extra spaces do not interfere with the word and sentence counts.
-
-2. **`split()`**  
-   Splits the input text into words and sentences:
-   - **For words**: The text is split into an array of words using spaces as the delimiter.
-   - **For sentences**: The text is split based on sentence-ending punctuation marks like `.`, `!`, and `?`.
-
-3. **`filter()`**  
-   Filters out any empty strings that may result from multiple spaces or incorrect punctuation marks, ensuring accurate word and sentence counts.
-
-4. **`addEventListener()`**  
-   Adds an event listener to the text input field to detect any changes in the input and update the word and sentence counts dynamically.
-
----
+The `PersonalPage` directory contains a more comprehensive personal website project, showcasing advanced web development techniques and responsive design principles.
 
 ### 👁️ Preview
 This application provides:
-- A **real-time word count** that updates as the user types.
-- A **real-time sentence count** that updates as the user types.
-- A responsive and user-friendly layout that works across different screen sizes.
 
----
+A real-time word count that updates as the user types.
+A real-time sentence count that updates as the user types.
+A responsive and user-friendly layout that works across different screen sizes.
 
-## 🎨 Lab 4: Responsive Web Design
+### 📸 Output
+![Word Counter Output](WST_Counter/word-sentence-ctr-output(image file).png)
 
+*Note: A video demonstration of the counter in action is also available at: `word-sentence-ctr-output(video file).mp4`*
+
+### 📌 Important Tags & Properties Used
+#### HTML
+- `<header>`: Defines header section
+- `<main>`: Contains main content
+- `<article>`: Wraps blog or content posts
+- `<aside>`: Creates sidebar content
+- `<form>`: Creates contact forms
+- `<meta>`: Sets viewport and metadata
+
+#### CSS
+- `flexbox`: Implements flexible layouts
+- `grid`: Creates grid-based layouts
+- `@keyframes`: Adds CSS animations
+- `transform`: Applies transformations
+- `position: sticky`: Creates sticky headers
+- `z-index`: Controls layer stacking
+- `opacity`: Controls transparency
+
+#### JavaScript
+- `fetch()`: Handles API requests
+- `async/await`: Manages asynchronous operations
+- `localStorage`: Stores user preferences
+- `JSON.parse/stringify`: Handles data conversion
+- `setInterval()`: Creates timed animations
+
+### 📌 Key Features
+- Modern web design implementation
+- Responsive layouts for various screen sizes
+- Advanced CSS styling
+- Interactive user interface elements
+
+## 📝 Lab 4: Word Counter Application
 ### Overview
-In this lab, I created an interactive webpage featuring smooth animations, progress bars, continuous typing effects, and a dynamic timeline. The webpage is designed to be fully responsive, adapting to different screen sizes using **HTML**, **CSS**, and **JavaScript**.
-
----
-
-### 📌 Relevant HTML Tags
-- `<nav>`: Used for the navigation bar with links to different sections of the page.
-- `<ul>`, `<li>`: Defines the unordered list of navigation links.
-- `<section>`: Each section represents different content areas like skills, progress, and timeline.
-- `<h1>`, `<p>`: Headings and paragraphs for content display.
-- `<div>`: A container element used for various content sections (e.g., skill items, progress bars).
-
----
-
-### 📌 Relevant CSS Properties and Techniques for Responsiveness:
-- `@media`: Media queries used for adapting the layout based on screen size. For instance:
-  - `@media (max-width: 768px)`: Adjusts layout when the screen width is 768px or less.
-  - `@media (max-width: 480px)`: Further tweaks the layout for screens that are 480px or smaller.
-  
-- **Flexbox**: `display: flex;` and `justify-content: center;` used in the navigation bar and layout for aligning elements.
-- **Percent-based Width**: Ensures elements like sections are responsive and adjust according to the screen size, e.g., `width: 100%;` or `padding: 10%`.
-- **`transform`**: Used for animations like scaling elements on hover (e.g., `.skill-item:hover`).
-
----
-
-### 📌 JavaScript Functions for Interactivity:
-- `addEventListener()`: Adds interactivity by listening for events such as clicks and mouse enters for hover effects.
-- `setTimeout()`: Used to create delays in animations or actions, such as the continuous typing effect and progress bar animation.
-- `scrollIntoView()`: Smooth scrolling to different sections when navigation links are clicked.
-- `IntersectionObserver`: Detects when elements come into view, triggering animations like timeline content fading in.
-
----
+Located in the `WST_Counter` folder, this project implements a word and character counting application, demonstrating JavaScript functionality and DOM manipulation.
 
 ### 👁️ Preview of Responsiveness:
-- **Navigation**: The navigation bar becomes vertical and centered on smaller screens, ensuring that links are still accessible without overlapping.
-- **Skill Items**: The skill items are displayed in a row on larger screens and stack vertically on smaller screens, with appropriate spacing between them.
-- **Hero Section**: The text size adjusts based on the screen width to ensure the hero section remains readable on all devices.
-- **Progress Bars**: Adjust their height and animation speed for smaller screens to ensure they fit within the screen properly.
-- **Timeline**: The content fades in as you scroll, with markers scaling and rotating when hovered.
+{{ ... }}
 
----
+### 📸 Output
+*Note: To better showcase your work, consider taking screenshots of your responsive web design at different screen sizes (desktop, tablet, and mobile) and save them as:*
+- `outputs/lab4-desktop.png`
+- `outputs/lab4-tablet.png`
+- `outputs/lab4-mobile.png`
 
-### Additional Features for Interactivity:
-- **Hover Effects**: Skills and social media buttons change visually when hovered over, thanks to CSS `transform` and `background-color` properties.
-- **Continuous Typing Effect**: The text in the hero section types out continuously in a loop, utilizing JavaScript to manipulate the inner text of an element.
+### 📌 Important Tags & Properties Used
+#### HTML
+- `<textarea>`: Input area for text
+- `<button>`: Interactive buttons
+- `<span>`: Displays counter results
+- `<div>`: Container elements
+- `<label>`: Form input labels
+- `<output>`: Displays calculation results
 
----
+#### CSS
+- `display: grid`: Organizes layout
+- `gap`: Sets spacing between elements
+- `user-select`: Controls text selection
+- `resize`: Controls textarea resizing
+- `outline`: Customizes focus states
+- `max-width`: Controls responsive width
 
-This README provides an overview of each lab activity and showcases the skills learned through hands-on projects. Enjoy exploring the labs!
+#### JavaScript
+- `addEventListener()`: Handles input events
+- `querySelector()`: Selects DOM elements
+- `innerHTML`: Updates content dynamically
+- `RegExp`: Processes text patterns
+- `split()`: Splits text into arrays
+- `trim()`: Removes extra whitespace
+- `match()`: Finds pattern matches
+- `setTimeout()`: Delays calculations
+
+### 📌 Key Features
+- Real-time word and character counting
+- JavaScript event handling
+- Dynamic content updates
+- User-friendly interface
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Modern Web Development Tools
+
+## 👨‍💻 Author
+Created as part of the Web Systems Technology laboratory activities.
+
+## 📅 Last Updated
+December 17, 2023
+
+## 📁 Project Structure
+```
+WST_LabActivities/
+├── Laboratory 1/
+│   └── html-tables.html
+├── Laboratory 2/
+│   ├── VisionBoard/
+│   ├── styles.css
+│   └── visionboard.html
+├── WST_Counter/
+│   ├── index.html
+│   ├── script.js
+│   ├── style.css
+│   ├── personal-page-output(image file).png
+│   ├── word-sentence-ctr-output(image file).png
+│   └── word-sentence-ctr-output(video file).mp4
+└── README.md
+```
+
+## 📸 Outputs Organization Suggestion
+To better organize your project outputs, consider creating an `outputs` directory with the following structure:
+
+```
+outputs/
+├── lab1-class-schedule.png
+├── lab2-vision-board.png
+├── lab3-word-counter.png
+└── lab4/
+    ├── desktop.png
+    ├── tablet.png
+    └── mobile.png
+```
+
+This will help keep your project documentation organized and make it easier to reference your work.
