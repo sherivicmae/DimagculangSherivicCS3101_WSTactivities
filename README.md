@@ -5,13 +5,18 @@ Welcome to my Web Systems and Technologies Laboratory repository! Here, you'll f
 ---
 
 ## 📒 Table of Contents
-- [Lab 1: Class Schedule](#🗓️-lab-1-class-schedule)
-- [Lab 2: Personalized Vision Board](#🎨-lab-2-personalized-vision-board)
-- [Lab 3: Word and Sentence Counter](#✏️-lab-3-word-and-sentence-counter)
-- [Lab 4: Responsive Web Design](#📱-lab-4-responsive-web-design)
+- [Lab 1: Class Schedule](#lab-1-class-schedule)
+- [Lab 2: Personalized Vision Board](#lab-2-personalized-vision-board)
+- [Lab 3: Word and Sentence Counter](#lab-3-word-and-sentence-counter)
+- [Lab 4: Responsive Web Design](#lab-4-responsive-web-design)
+- [Tools & Technologies Used](#tools--technologies-used)
+- [How to Use](#how-to-use)
+- [Author](#author)
+- [Acknowledgment](#acknowledgment)
+
 ---
 
-## 🗓️ Lab 1: Class Schedule
+## 🗓️<a id="lab-1-class-schedule"></a> Lab 1: Class Schedule
 
 ### Overview
 In this lab, I created a class schedule using **HTML only**. It displays weekly classes in a structured table format, highlighting class codes, descriptions, and timings. The project demonstrates the use of semantic tags, styling, and table attributes.
@@ -38,7 +43,7 @@ The schedule includes:
 ![Class Schedule](Laboratory%20Activities/Laboratory%20Activity%201%20-%2006-08-2024/html-tables-output.png)
 *Simple Class Schedule*
 
-## 🎨 Lab 2: Personalized Vision Board
+## 🎨<a id="lab-2-personalized-vision-board"> Lab 2: Personalized Vision Board
 
 ### Overview
 In this lab, I created a personalized vision board to display and organize various images, goals, and inspirations. The board is designed using **HTML** for structure and **CSS** for styling, with Flexbox used for creating a responsive and flexible layout.
@@ -75,7 +80,7 @@ The vision board includes:
 
 ---
 
-## ✏️ Lab 3: Word and Sentence Counter
+## ✏️ <a id="lab-3-word-and-sentence-counter"></a> Lab 3: Word and Sentence Counter
 
 ### Overview
 In this lab, I created a simple web application to count the number of words and sentences in a given input text. The application is designed using **HTML** for the structure and **CSS** for styling. **JavaScript** is used to handle the functionality of counting words and sentences in real-time as the user types in the input field.
@@ -122,7 +127,7 @@ This application provides:
 *Watch the demo video to see the counter in action!*
 
 ---
-## 📱 Lab 4: Responsive Web Design
+## 📱<a id="lab-4-responsive-web-design"></a> Lab 4: Responsive Web Design
 
 ### Overview
 In this lab, I created an interactive webpage featuring smooth animations, progress bars, continuous typing effects, and a dynamic timeline. The webpage is designed to be fully responsive, adapting to different screen sizes using **HTML**, **CSS**, and **JavaScript**.
