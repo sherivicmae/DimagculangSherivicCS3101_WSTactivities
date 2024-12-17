@@ -37,7 +37,7 @@ The schedule includes:
 
 ### 📸 Output
 ![Class Schedule](Laboratory%20Activities/Laboratory%20Activity%201%20-%2006-08-2024/html-tables-output.png)
-*Class Schedule*
+*Simple Class Schedule*
 
 ## 🎨 Lab 2: Personalized Vision Board
 
@@ -119,6 +119,7 @@ This application provides:
 
 ### 🎥 Demo Video
 ![Word Counter Interface](Laboratory%20Activities/Laboratory%20Activity%203%20-%2019-11-24/word-sentence-ctr-output(gif%20file).gif)
+
 *Watch the demo video to see the counter in action!*
 
 ---
@@ -159,11 +160,15 @@ In this lab, I created an interactive webpage featuring smooth animations, progr
 
 
 ### 📸 Output
-![Word Counter Interface](/Laboratory%20Activities/Laboratory%20Activity%204%20-%2029-11-24/personal-page-output%20(image%20file).png)
+![Personal Page](/Laboratory%20Activities/Laboratory%20Activity%204%20-%2029-11-24/personal-page-output%20(image%20file).png)
+*My Personal Page*
+
 
 ### 🎥 Demo Video
 
-![Word Counter Interface](/Laboratory%20Activities/Laboratory%20Activity%204%20-%2029-11-24/personal-page-output%20(video%20file).gif)
+![Personal Page](/Laboratory%20Activities/Laboratory%20Activity%204%20-%2029-11-24/personal-page-output%20(video%20file).gif)
+*Showing Interactivity in my Personal Page*
+
 
 ---
 ### Additional Features for Interactivity:
