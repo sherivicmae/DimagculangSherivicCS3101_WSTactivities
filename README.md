@@ -171,6 +171,7 @@ In this lab, I created an interactive webpage featuring smooth animations, progr
 ### 🎥 Demo Video
 
 ![Personal Page](/Laboratory%20Activities/Laboratory%20Activity%204%20-%2029-11-24/personal-page-output%20(video%20file).gif)
+
 *Showing Interactivity in my Personal Page*
 
 
